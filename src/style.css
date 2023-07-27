@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    background: url(imgs/pexels-pixabay-47306.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 2fr 11fr 1fr;
+}
+
+header,
+section,
+footer {
+    background-color: black;
+    opacity: 50%;
+    color: white;
+}
