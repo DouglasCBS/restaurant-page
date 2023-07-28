@@ -15,7 +15,39 @@
 header,
 section,
 footer {
-    background-color: black;
-    opacity: 50%;
     color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    opacity: 65%;
+    background-color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    opacity: 65%;
+    background-color: black;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: black;
+    padding: 150px 200px;
+    opacity: 65%;
+    font-size: 20px;
+    font-weight: 500;
 }
