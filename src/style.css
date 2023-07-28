@@ -1,21 +1,18 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    color: white;
 }
 
 #content {
-    background: url(imgs/pexels-pixabay-47306.jpg);
-    background-size: 100vw 100vh;
+    background: url(imgs/background.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
     display: grid;
     grid-template-rows: 2fr 11fr 1fr;
-}
-
-header,
-section,
-footer {
-    color: white;
 }
 
 header {
@@ -32,8 +29,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 700;
     opacity: 65%;
     background-color: black;
 }
@@ -50,4 +47,5 @@ section {
     opacity: 65%;
     font-size: 20px;
     font-weight: 500;
+    border-radius: 50px;
 }

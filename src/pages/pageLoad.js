@@ -9,7 +9,7 @@ const pageLoad = function (){
     header.textContent = "Spastalleto";
     div.textContent = "What do you call something that tastes like pasta, looks like pasta but isn’t pasta? An impasta."
     /* main.textContent = "main"; */
-    footer.textContent = "Photo by Pixabay: https://www.pexels.com/photo/yellow-pasta-beside-onions-47306/";
+    footer.innerHTML = '<p>Image by <a href="https://pixabay.com/users/pfüderi-199315/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2364221">Pfüderi</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2364221">Pixabay</a><p>';
 
     content.appendChild(header);
     content.appendChild(main);
