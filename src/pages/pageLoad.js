@@ -16,8 +16,11 @@ const pageLoad = function (){
     main.appendChild(div);
 
     const home = document.createElement("button");
+    home.setAttribute("id", "home");
     const menu = document.createElement("button");
+    menu.setAttribute("id", "menu");
     const contact = document.createElement("button");
+    contact.setAttribute("id", "contact");
 
     home.textContent = "Home";
     menu.textContent = "Menu";
