@@ -76,3 +76,31 @@ button:disabled {
     transform: scale(0.9);
     box-shadow: 0 0 20px rgb(241, 157, 61);
 }
+
+.contactDiv {
+    background-color: black;
+    padding: 20px 100px 40px 100px;
+    opacity: 65%;
+    font-weight: 500;
+    border-radius: 50px;
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 1fr 1fr;
+}
+
+.contactDiv h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+ul li {
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
