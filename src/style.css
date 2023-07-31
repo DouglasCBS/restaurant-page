@@ -121,12 +121,12 @@ ul {
 .menuDiv img {
     height: 200px;
     width: auto;
-    box-shadow: 0 0 70px 30px black;
+    box-shadow: 0 20px 70px 20px black;
 }
 
 .menuDiv div {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 15px;
     text-align: center;
 }

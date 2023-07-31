@@ -1,6 +1,7 @@
 import pageLoad from "./pages/pageLoad";
 import contact from "./pages/contact";
 import menu from "./pages/menu";
+import './style.css';
 
 pageLoad();
 
